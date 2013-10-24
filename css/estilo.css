@@ -1,0 +1,316 @@
+body{
+background:url("../img/fondo.jpg") repeat-x #0668ed;
+font-family:verdana,arial,helvetica,sans serif;
+color:white;
+margin: 0px;
+height: 100%;
+}
+
+h1,h2,h3,h4,h5{
+font-weight:lighter;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenedor General */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenedor_general{
+height:400px;
+width:1021px;
+margin:0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Encabezado */
+/*-------------------------------------------------------------------------------------------------------- */
+#encabezado{
+float:left;
+height:160px;
+width:850px;
+}
+
+#encabezado img{
+margin-top:20px;
+margin-left:20px;
+float:left;
+}
+
+#encabezado form{
+margin-top:20px;
+font-size:12px;
+float:right;
+}
+
+#encabezado form a{
+text-decoration:none;
+color:white;
+}
+
+
+
+.usuario{
+background:url("../img/input_usuario.gif") no-repeat;
+border:none;
+height:16px;
+width:210px;
+}
+
+.password{
+background:url("../img/input_contraseña.gif") no-repeat;
+border:none;
+height:16px;
+width:188px;
+}
+
+#encabezado h1 a{
+font-size:10px;
+}
+
+
+#encabezado p a{
+background:url("../img/boton_login.png") no-repeat;
+margin-top:10px;
+float:right;
+height:31px;
+width:126px;
+}
+
+#encabezado p a:hover{
+background:url("../img/boton_login_hover.png") no-repeat;
+height:31px;
+width:126px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido */
+/*-------------------------------------------------------------------------------------------------------- */
+
+#contenido{
+background:url("../img/cuadro_dialogo.png") no-repeat;
+float:left;
+height:429px;
+width:871px;
+}
+
+#contenido a{
+background:url("../img/boton_registrarte.png") no-repeat;
+margin-left:500px;
+text-decoration:none;
+color:white;
+font-size:25px;
+float:left;
+padding-top:20px;
+padding-left:80px;
+height:57px;
+width:218px;
+}
+
+#contenido a:hover{
+background:url("../img/boton_registrarte_hover.png") no-repeat;
+height:57px;
+width:218px;
+}
+
+.titular{
+padding-left:485px;
+margin-top:50px;
+height:200px;
+width:400px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Información Adicional */
+/*-------------------------------------------------------------------------------------------------------- */
+#franja_azul{
+background:url("../img/franja_azul.jpg") repeat-x #0430ad;
+float:left;
+height:220px;
+width:100%;
+}
+
+#franja_centro{
+height:180px;
+width:850px;
+margin:0 auto;
+}
+
+.parrafo{
+float:left;
+margin-right:17px;
+}
+
+.parrafo p{
+font-size:14px;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Pie */
+/*-------------------------------------------------------------------------------------------------------- */
+#pie{
+background-color:#051b89;
+float:left;
+height:120px;
+width:100%;
+}
+
+#centrar{
+height:100px;
+width:900px;
+text-align:center;
+margin:0 auto;
+}
+
+#centrar a{
+font-size:14px;
+text-decoration:none;
+color:white;
+}
+
+#centrar p{
+margin-top:20px;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido Inicio Agente */
+/*-------------------------------------------------------------------------------------------------------- */
+
+#contenido_agente{
+height:700px;
+width:930px;
+float:left;
+}
+
+#barra_menu{
+background:url("../img/agente/barra_menu.gif") no-repeat;
+position:relative;
+height:91px;
+width:912px;
+background-color:green;
+}
+
+#barra_menu  a{
+background:url("../img/agente/boton_a.gif") no-repeat;
+font-family:arial;
+color:white;
+text-decoration:none;
+margin-top:16px;
+font-size:18px;
+float:right;
+width:118px;
+height:62px;
+}
+
+#barra_menu a:hover{
+background:url("../img/agente/boton_a_hover.gif") no-repeat;
+width:118px;
+height:62px;
+}
+
+#botones{
+margin-right:60px;
+float:right;
+width:240px;
+height:62px;
+}
+
+#lateral{
+float:left;
+width:286px;
+height:589px;
+}
+
+.recuadro{
+background:url("../img/agente/recuadro.png") no-repeat;
+width:286px;
+height:262px;
+}
+
+.recuadro p a{
+background:url("../img/agente/boton_subir.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+float:right;
+width:192px;
+height:57px;
+}
+
+.recuadro p a:hover{
+background:url("../img/agente/boton_subir_hover.png") no-repeat;
+width:192px;
+height:57px;
+}
+
+.recuadro h4 a{
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:13px;
+}
+
+.recuadro h3 a{
+background:url("../img/agente/boton_seguir.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:15px;
+float:right;
+width:107px;
+height:37px;
+}
+
+.recuadro h3 a:hover{
+background:url("../img/agente/boton_seguir_hover.png") no-repeat;
+width:107px;
+height:37px;
+}
+
+#linea_general{
+float:right;
+height:auto;
+width:589;
+}
+
+#encabezado_cuadro{
+background:url("../img/agente/recuadro_cabezal.png") no-repeat;
+height:135px;
+width:589px;
+}
+
+#pie_cuadro{
+background:url("../img/agente/recuadro_pie.png") no-repeat;
+height:135px;
+width:589px;
+}
+
+.uno{
+background-color:#051b89;
+height:100px;
+width:589px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-left-style:solid;
+border-left-width:1px;
+border-right-style:solid;
+border-right-width:1px;
+}
+
+.fecha{
+background-color:#061541;
+float:left;
+height:100px;
+width:129px;
+border-right-style:solid;
+border-right-width:1px;
+}
+
+.noticia{
+background-color:#051b89;
+float:left;
+height:100px;
+width:459px;
+}
+
